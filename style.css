@@ -1,0 +1,170 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #e8edf4;
+  }
+  
+  header {
+    background: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .logo, .e-logo {
+    height: 60px;
+  }
+  
+  .title h1 {
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .title h2 {
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #007c75;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  nav .nav-item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 30px;
+  }
+  
+  .login-box {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 450px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="password"], select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+  
+  .hint {
+    color: red;
+    font-size: 0.85em;
+  }
+  
+  .captcha-row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .captcha-row img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .refresh {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .audio-row {
+    margin-top: 10px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .signin {
+    background-color: #007c75;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .forgot {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .register {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #00a6a3;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .info-box {
+    width: 400px;
+    background: linear-gradient(#24807e, #319e9a);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+  }
+  
+  .info-box h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+  }
+  
+  .info-box ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .caution {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: yellow;
+  }
+  
