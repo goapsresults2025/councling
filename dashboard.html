@@ -157,7 +157,7 @@
         background-color: #dff0d8;
         padding: 10px 20px;
         font-weight: bold;
-        text-align: right;
+        text-align: left;
         border: 1px solid #a1d99b;
         font-size: 15px;
     }
@@ -174,7 +174,6 @@
       background-color: #f9f9f9;
       border-radius: 6px;
     }
-
 
     #payFeeBtn span {
       font-weight: bold;
@@ -210,7 +209,7 @@
         <li id="payFeeBtn">Pay Registration Fee <span>NEW</span></li>
         <li>Candidate Profile</li>
         <li>Available Choices</li>
-        <li>Choice Filling</li>
+        <li id="choiceFillingBtn">Choice Filling</li>
         <li>Choice Locking</li>
         <li>Registration Unlocking</li>
         <li>Seat Allotment Result</li>
@@ -249,13 +248,7 @@
     <!-- Fee Payment Section -->
     <div id="fee-payment-section">
       <h3>Fee Payment</h3>
-      <p>You are required to pay an amount of <strong>Rs. 3000/-</strong>.</p>
-      <p><strong>Select mode of payment:</strong> <input type="radio" name="payment" checked> Online Payment</p>
-      <h4>Candidate Consent</h4>
-      <p>I agree to share my Name, Date of birth, Gender, Category, Mobile number, Email id & Complete mailing address with ICICI payment gateway.</p>
-      <label><input type="radio" name="consent"> I agree</label><br>
-      <label><input type="radio" name="consent"> I don't agree</label><br><br>
-      <button style="background-color: #00746f; color: white; padding: 8px 16px; border: none; border-radius: 4px;">Proceed</button>
+      <p>You payment is successful <strong></strong>.</p>
     </div>
   </div>
 </div>
@@ -293,5 +286,12 @@
     updateTimer(); // run immediately
     const timerInterval = setInterval(updateTimer, 1000);
 </script>  
+<!-- Added script for Choice Filling redirection -->
+<script>
+  document.getElementById('choiceFillingBtn').onclick = function() {
+    window.location.href = 'filling.html';
+  };
+</script>
+
 </body>
 </html>
